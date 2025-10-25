@@ -1,0 +1,4 @@
+git commit --amend: hiển thị message của commit cũ, cho phép chỉnh sửa lại message đó.
+git commit --amend -m”<message>”: thay thế nhanh message cũ bằng một message mới hoàn toàn.
+git restore --staged <file>: dùng để reverse file từ Staging Area về lại Working Directory.
+git reset HEAD~1: lấy toàn bộ file thay đổi trong commit cuối cùng đó đưa ra khỏi Repository và chuyển ngược lại vào Staging Area.
